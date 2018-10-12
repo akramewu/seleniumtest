@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [All Test]">
+  <test name="DistributionModelTest(failed)">
+    <classes>
+      <class name="com.sap.mdmorchestration.testScripts.distributionPage.DistributionModelTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="testLoginToApplication"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sap.mdmorchestration.testScripts.distributionPage.DistributionModelTest -->
+    </classes>
+  </test> <!-- DistributionModelTest(failed) -->
+  <test name="SubscriptionDistributionListTest(failed)">
+    <classes>
+      <class name="com.sap.mdmorchestration.testScripts.distributionPage.SubscriptionDistributionListTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="testSubscriptionDistributionList"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sap.mdmorchestration.testScripts.distributionPage.SubscriptionDistributionListTest -->
+    </classes>
+  </test> <!-- SubscriptionDistributionListTest(failed) -->
+</suite> <!-- Failed suite [All Test] -->

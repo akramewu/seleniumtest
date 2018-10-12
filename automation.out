@@ -1,0 +1,37 @@
+2018-10-12 16:10:935 INFO  TestBase:133 - Initialize Web driver: 151593342
+2018-10-12 16:10:940 INFO  WaitHelper:43 - Implicit Wait has been set to: 5
+2018-10-12 16:10:945 INFO  WaitHelper:163 - waiting for page to load for : SECONDS seconds
+2018-10-12 16:10:948 INFO  WaitHelper:165 - page is loaded
+2018-10-12 16:10:893 INFO  WaitHelper:84 - waiting for :[[ChromeDriver: chrome on XP (d650de55d2250a9bb0880f119782f7f3)] -> css selector: input.island-button] for :60 seconds
+2018-10-12 16:10:932 INFO  WaitHelper:87 - element is visible nnow
+2018-10-12 16:10:933 INFO  TestBase:165 - capturing ui navigation screen... 
+2018-10-12 16:10:381 INFO  WaitHelper:84 - waiting for :[[ChromeDriver: chrome on XP (d650de55d2250a9bb0880f119782f7f3)] -> css selector: input.island-button] for :60 seconds
+2018-10-12 16:10:401 INFO  WaitHelper:87 - element is visible nnow
+2018-10-12 16:10:401 INFO  LoginPage:42 - entering email address...md.akramul.islam@sap.com
+2018-10-12 16:10:416 INFO  WaitHelper:84 - waiting for :[[ChromeDriver: chrome on XP (d650de55d2250a9bb0880f119782f7f3)] -> css selector: [name='username']] for :5 seconds
+2018-10-12 16:10:441 INFO  WaitHelper:87 - element is visible nnow
+2018-10-12 16:10:533 INFO  LoginPage:50 - entering password ...
+2018-10-12 16:10:550 INFO  WaitHelper:84 - waiting for :[[ChromeDriver: chrome on XP (d650de55d2250a9bb0880f119782f7f3)] -> css selector: [name='password']] for :5 seconds
+2018-10-12 16:10:573 INFO  WaitHelper:87 - element is visible nnow
+2018-10-12 16:10:632 INFO  LoginPage:58 - clicking on login button...
+2018-10-12 16:10:271 INFO  WaitHelper:62 - Sleep Wait has been set to: 5
+2018-10-12 16:10:300 ERROR VerficationHelper:34 - element is not displayed..
+2018-10-12 16:10:302 INFO  DistributionPage:57 - click on distrubutuion model...
+2018-10-12 16:10:967 INFO  TestBase:133 - Initialize Web driver: 1399701152
+2018-10-12 16:10:967 INFO  WaitHelper:43 - Implicit Wait has been set to: 5
+2018-10-12 16:10:971 INFO  WaitHelper:163 - waiting for page to load for : SECONDS seconds
+2018-10-12 16:10:973 INFO  WaitHelper:165 - page is loaded
+2018-10-12 16:10:856 INFO  WaitHelper:84 - waiting for :[[ChromeDriver: chrome on XP (a54677cd9ad83c96806589631e5310aa)] -> css selector: input.island-button] for :60 seconds
+2018-10-12 16:10:883 INFO  WaitHelper:87 - element is visible nnow
+2018-10-12 16:10:883 INFO  TestBase:165 - capturing ui navigation screen... 
+2018-10-12 16:10:312 INFO  WaitHelper:84 - waiting for :[[ChromeDriver: chrome on XP (a54677cd9ad83c96806589631e5310aa)] -> css selector: input.island-button] for :60 seconds
+2018-10-12 16:10:331 INFO  WaitHelper:87 - element is visible nnow
+2018-10-12 16:10:333 INFO  LoginPage:42 - entering email address...md.akramul.islam@sap.com
+2018-10-12 16:10:348 INFO  WaitHelper:84 - waiting for :[[ChromeDriver: chrome on XP (a54677cd9ad83c96806589631e5310aa)] -> css selector: [name='username']] for :5 seconds
+2018-10-12 16:10:371 INFO  WaitHelper:87 - element is visible nnow
+2018-10-12 16:10:460 INFO  LoginPage:50 - entering password ...
+2018-10-12 16:10:477 INFO  WaitHelper:84 - waiting for :[[ChromeDriver: chrome on XP (a54677cd9ad83c96806589631e5310aa)] -> css selector: [name='password']] for :5 seconds
+2018-10-12 16:10:501 INFO  WaitHelper:87 - element is visible nnow
+2018-10-12 16:10:553 INFO  LoginPage:58 - clicking on login button...
+2018-10-12 16:10:972 INFO  WaitHelper:62 - Sleep Wait has been set to: 5
+2018-10-12 16:10:974 INFO  DistributionPage:57 - click on distrubutuion model...

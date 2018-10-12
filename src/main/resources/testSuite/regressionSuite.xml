@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+<listeners>
+ <!--  <listener class-name="com.sap.mdmorchestration.helper.listener.RetryListener"></listener>-->
+ <listener class-name="com.sap.mdmorchestration.helper.listener.ExtentListener"></listener>
+</listeners>
+ <test name="A">
+  <classes>
+     <class name="com.sap.mdmorchestration.helper.alert.A"></class>
+  </classes>
+ </test>
+<test name="B">
+ <classes>
+  <class name="com.sap.mdmorchestration.helper.alert.B"></class> 
+ </classes>
+</test>
+
+<test name="C">
+ <classes>
+  <class name="com.sap.mdmorchestration.helper.alert.C"></class> 
+ </classes>
+</test>
+
+<test name="TestScreenShot">
+ <classes>
+  <class name="com.sap.mdmorchestration.testScripts.TestScreenShot"></class> 
+ </classes>
+</test>
+</suite>

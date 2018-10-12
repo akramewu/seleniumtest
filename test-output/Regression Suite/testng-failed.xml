@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.sap.mdmorchestration.helper.listener.ExtentListener"/>
+  </listeners>
+  <test name="B(failed)">
+    <classes>
+      <class name="com.sap.mdmorchestration.helper.alert.B">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="testLoginB"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sap.mdmorchestration.helper.alert.B -->
+    </classes>
+  </test> <!-- B(failed) -->
+  <test name="C(failed)">
+    <classes>
+      <class name="com.sap.mdmorchestration.helper.alert.C">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="testLoginC"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sap.mdmorchestration.helper.alert.C -->
+    </classes>
+  </test> <!-- C(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
